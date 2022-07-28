@@ -1,0 +1,131 @@
+*) power function in python is using '**' operator.
+*) normal strings can be printed multiple times using '*' into operator.
+*) Strings once initialised in python cannot be altered.
+
+
+// LISTS 
+    //have certain funcitons such as append , insert etc (it is mutable).
+        Declared within [ ] brackets.    
+    --> APPEND : adds the specified element to the last of the list.
+    --> INSERT : adds the specified element in between somewhere specified.
+    --> REMOVE : removes the specified element from the list.
+    --> POP    : removes the element according to the index specified.
+                    // IF no index is specified the last element is removed.
+    --> DEL    : a command in general pass on the name of the list u want to remove and the index specified in that
+    --> EXTEND : adding multiple values in the list.
+
+// TUPLES
+    //same as in like lists but the values are not mutable and almost fixed.
+        Declared within ( ) brackets with the key value pairs.
+
+// SET (collection of unique elements)
+        It does not have any predefined order.
+        Declared within { } brackets.
+
+// DICTIONARY (key - value pairs are specified) 
+        syntax <var> = {key: value, key : value and so on...}
+        // the key should be unmutable and unique also different from each other.
+        note: if we dont have a key 'a'
+        then data.get(a,'nto') this would give nto whenever the key is not present.
+        //one can also declare a list and tuple inside a dicionary.'
+
+// Variables created to point a particular value to which they are assigned.
+  In python numerical constants are also objects.
+  eg: a =10
+      b =a
+      then id(a) = id(b) = id(10)
+  
+  type function is used to return the type of the variable used
+    eg: 
+        PI = 3.14
+        type(PI) --> <class 'float'>
+
+//  DATA TYPES IN PYTHON
+    includes :
+            *) none //analogous to NULL
+            *) numerical
+                    --> int
+                    --> float
+                    --> complex eg: (6+9j)
+                    --> bool
+            *) list
+            *) tuple
+            *) SET
+            *) strings
+            *) Range
+            *) dictionary 
+\\ list, tuple, set, string, range are parts of "SEQUENCE"
+
+\\ range(x) e.q= x =10
+list(range(10)) -- list starting from zero to 9.
+list(range(2,10,2)) -- 2,4,6,8.
+
+// OPERATORS :
+    normal operators same as in C++.
+    
+    Unary operators:-- '-' negation also ! is used
+    
+//XOR operators :--
+    It is a  bit wise operator.
+    when two bits are same then it results in 0 and when the two bits are different it results in 1.
+    It can be used to exchange two numbers without using a third variable,
+    i.e A = A^B
+        B = A^B 
+        A = A^B
+
+//swapping in python is also done using a,b = b,a      
+//Rotation of two numbers. ROT_TWO()
+
+
+// BITWISE OPERATORS.
+    6 different operators
+    complement (~) --> complements the bits
+    and (&) --> if both bits are 1 then only it returns 1 otherwise it returns 0.
+    or(|) --> if either of the bit is 1 then it returns 1
+    xor(^) --> if bits are different then it returns 1 otherwise 0
+    left shift (<<) --> shifts the bits by specified number of times in left side of the "binary" point. 
+    right shift(>>) --> shifts the bits by specified number of times in right side of the "binary" point.
+
+// Mathematical functions.
+    eg:
+    *)import math.
+    x = math.sqrt(number)
+    
+    *)print(math.floor(x))
+
+  // creating alias..
+   "import math as m."
+
+// By default input function takes the input as a string.
+
+// If one wants to take command line inputs (argv and argc concept) then we need to import the library 'sys' 
+    index 0 -- file name
+    therefore you will get other indexes as u input.
+
+//after if else we specify a colon.
+
+by default print statements come in different new lines.
+If we want to print in the same line then we need to use the following.
+        --> print("fcuk",end ="")
+
+// for loop syntax: 
+        for i in x:
+            ..... code.
+    we can also use a string or list and access its elements.
+
+// Break, continue statements -- similar as in C++
+// pass is a keyword which is used to signify there is no code and hence pass on the flow. 
+
+//For-else:
+syntax:
+
+for ......:
+    if .....
+
+else:
+    print("not found")
+
+//Arrays:
+    import array module.
+    i.e import array as arra or we can use "from array import *" -- import all the functions from this.
+    buffer_info() function specifies the size of the array and the address.
