@@ -1,7 +1,7 @@
 # SoC-2k22
 Summer of code : Project on Loan Approval and Prediction
 
-**"**Files**" file contains the info to all the files created for the project.**
+**"**FILES**" file contains the info to all the files created for the project.**
 
 # Resources
 Mostly used websites such as **geeksforgeeks** (for understanding different syntax/functions of python for different libraries involved), some **Youtube tutorials** for learning python in early weeks of the course, **kapple** for working on different data files and for several methods of data cleaning and processing.
